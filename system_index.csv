@@ -1,0 +1,68 @@
+system_id,comp1,comp2,T_K,tau12,tau21,alpha,family,source,data_type,n_points,notes
+1,ethanol,cyclohexane,298.15,2.1,2.975,0.2,alcohol-HC,Kurihara_1993_JCED38/Chu_1950,lit-NRTL-calc,25,"Azeotrope x1≈0.43, P_az≈24 kPa; ref [D] + [R]"
+2,ethanol,cyclohexane,308.15,2.07,2.92,0.2,alcohol-HC,Kurihara_1993_JCED38/Chu_1950,lit-NRTL-calc,25,308 K isotherm; params interpolated from [R]
+3,methanol,cyclohexane,298.15,2.65,3.2,0.2,alcohol-HC,Sinor_Weber_1960_JCED5,lit-NRTL-calc,25,Azeotrope x1≈0.62; NRTL from [R] Sinor&Weber
+4,methanol,cyclohexane,318.15,2.6,3.1,0.2,alcohol-HC,Sinor_Weber_1960_JCED5,lit-NRTL-calc,25,318 K isotherm; params from [D] DECHEMA I
+5,ethanol,benzene,298.15,1.82,2.43,0.3,alcohol-HC,Chu_1950/DECHEMA_I_Part1,lit-NRTL-calc,25,Azeotrope x_EtOH≈0.44; params [D]
+6,ethanol,benzene,318.15,1.78,2.38,0.3,alcohol-HC,Chu_1950/DECHEMA_I_Part1,lit-NRTL-calc,25,318 K; params [D]
+7,methanol,benzene,298.15,1.546,2.984,0.3,alcohol-HC,Nagata_1969_JCED14,lit-NRTL-calc,25,Azeotrope x_MeOH≈0.61 at 1 atm; [R] Nagata 1969
+8,methanol,benzene,313.15,1.51,2.92,0.3,alcohol-HC,Nagata_1969_JCED14,lit-NRTL-calc,25,313 K; [D]
+9,ethanol,n-heptane,298.15,2.3,3.35,0.2,alcohol-HC,Hiaki_1994_JCED39,lit-NRTL-calc,25,Positive azeotrope; NRTL [R] Hiaki 1994
+10,ethanol,n-heptane,313.15,2.25,3.28,0.2,alcohol-HC,Hiaki_1994_JCED39,lit-NRTL-calc,25,313 K; [D]
+11,methanol,n-heptane,298.15,3.05,3.78,0.2,alcohol-HC,Wolff_Hoeppel_1968/DECHEMA_I_Part2,lit-NRTL-calc,25,Very strong pos. deviation; [D]
+12,methanol,n-heptane,313.15,2.98,3.7,0.2,alcohol-HC,Wolff_Hoeppel_1968/DECHEMA_I_Part2,lit-NRTL-calc,25,313 K isotherm [D]
+13,1-propanol,n-heptane,298.15,2.15,3.1,0.2,alcohol-HC,DECHEMA_I_Part2_p312,lit-NRTL-calc,25,[D] p.312
+14,1-propanol,n-heptane,318.15,2.09,3.01,0.2,alcohol-HC,DECHEMA_I_Part2_p312,lit-NRTL-calc,25,318 K [D]
+15,ethanol,isooctane,298.15,2.25,3.1,0.2,alcohol-HC,Hiaki_1994/Font_2003_IEC,lit-NRTL-calc,25,Entrainer system; [R] Font 2003
+16,ethanol,isooctane,313.15,2.19,3.03,0.2,alcohol-HC,Hiaki_1994/Font_2003_IEC,lit-NRTL-calc,25,313 K [D]
+17,2-propanol,cyclohexane,298.15,2.05,2.82,0.2,alcohol-HC,Nagata_1975/DECHEMA_I,lit-NRTL-calc,25,[R] Nagata 1975
+18,methanol,ethanol,298.15,0.152,0.098,0.3,alcohol-alcohol,Kurihara_1995_JCED40,lit-NRTL-calc,25,Near ideal; τ from [R] Kurihara 1995
+19,methanol,ethanol,323.15,0.148,0.094,0.3,alcohol-alcohol,Kurihara_1995_JCED40,lit-NRTL-calc,25,323 K
+20,ethanol,1-propanol,298.15,0.101,0.066,0.3,alcohol-alcohol,SmithVanNessAbbott_AppB/DECHEMA,lit-NRTL-calc,25,Near ideal; τ from [S] App.B
+21,ethanol,1-propanol,333.15,0.096,0.062,0.3,alcohol-alcohol,SmithVanNessAbbott_AppB/DECHEMA,lit-NRTL-calc,25,333 K
+22,acetone,water,298.15,2.347,1.301,0.589,ketone-water,Perrys_Table13-9,NRTL-generated,25,Positive deviation; [P] Table 13-9
+23,acetone,water,323.15,2.24,1.22,0.55,ketone-water,Perrys_Table13-9/Griswold_Wong_1952,NRTL-generated,25,[P] + Griswold&Wong 1952
+24,acetone,water,373.15,2.0698,1.1475,0.5999,ketone-water,Perrys_Table13-9,NRTL-generated,25,373 K isotherm [P]
+25,MEK,water,323.15,1.98,1.42,0.5,ketone-water,DECHEMA_I_Part3/Perrys,lit-NRTL-calc,25,MEK=methyl-ethyl-ketone; [D][P]
+26,MEK,water,348.15,1.89,1.34,0.48,ketone-water,DECHEMA_I_Part3/Perrys,lit-NRTL-calc,25,348 K [D]
+27,methanol,water,298.15,0.951,0.7942,0.3,alcohol-water,Perrys_Table13-9/Kurihara_1995,NRTL-generated,25,No azeotrope; [P]
+28,methanol,water,323.15,0.92,0.77,0.3,alcohol-water,Perrys_Table13-9/Kurihara_1995,NRTL-generated,25,323 K [P]
+29,methanol,water,348.15,0.8927,0.7408,0.3,alcohol-water,Perrys_Table13-9,NRTL-generated,25,348 K [P]
+30,ethanol,water,298.15,1.24,0.96,0.3,alcohol-water,Perrys_Table13-9/Stabnikov_1972,NRTL-generated,25,Azeotrope x1≈0.894 at 1 atm; [P]
+31,ethanol,water,323.15,1.205,0.933,0.3,alcohol-water,Perrys_Table13-9/Stabnikov_1972,NRTL-generated,25,323 K [P]
+32,ethanol,water,351.15,1.167,0.9014,0.3,alcohol-water,Perrys_Table13-9/Stabnikov_1972,NRTL-generated,25,Near atm bp; [P]
+33,1-propanol,water,333.15,1.42,2.37,0.45,alcohol-water,DECHEMA_I_Part1/Murti_VanWinkle_1958,lit-NRTL-calc,25,Azeotrope x1≈0.567 at 101.3 kPa; [D][R]
+34,1-propanol,water,353.15,1.38,2.28,0.44,alcohol-water,DECHEMA_I_Part1/Murti_VanWinkle_1958,lit-NRTL-calc,25,353 K [D]
+35,2-propanol,water,333.15,1.25,2.01,0.41,alcohol-water,Perrys_DECHEMA/Chu_1950,NRTL-generated,25,Azeotrope x_iPrOH≈0.68 at 101.3 kPa; [P][D]
+36,2-propanol,water,353.15,1.21,1.95,0.4,alcohol-water,Perrys_DECHEMA/Chu_1950,NRTL-generated,25,353 K [D]
+37,chloroform,methanol,298.15,-0.64,-1.42,0.47,chlorinated,Nagata_1969/DECHEMA_CHCl3,lit-NRTL-calc,25,Negative deviation; max-P azeotrope x_CHCl3≈0.65; [R]
+38,chloroform,methanol,318.15,-0.61,-1.37,0.46,chlorinated,Nagata_1969/DECHEMA_CHCl3,lit-NRTL-calc,25,318 K [D]
+39,chloroform,acetone,298.15,-0.8099,-0.524,0.47,chlorinated,Perrys_Table13-9/Gmehling_DECHEMA_I4,NRTL-generated,25,Strong H-bond complex; neg. deviation; [P] Table 13-9
+40,chloroform,acetone,328.15,-0.77,-0.5,0.46,chlorinated,Perrys_Table13-9/Gmehling_DECHEMA_I4,NRTL-generated,25,328 K [P]
+41,benzene,cyclohexane,298.15,0.412,0.398,0.3,HC-HC,Kurihara_1997_JCED42,lit-NRTL-calc,25,Small pos. deviation; [R] Kurihara 1997
+42,benzene,cyclohexane,323.15,0.4,0.386,0.3,HC-HC,Kurihara_1997_JCED42,lit-NRTL-calc,25,323 K [R]
+43,benzene,cyclohexane,333.15,0.395,0.382,0.3,HC-HC,Kurihara_1997_JCED42,lit-NRTL-calc,25,333 K [R]
+44,benzene,n-heptane,298.15,0.364,0.351,0.3,HC-HC,Scatchard_1940/DECHEMA_I_Part6a,lit-NRTL-calc,25,[R] Scatchard 1940; [D]
+45,benzene,n-heptane,323.15,0.351,0.339,0.3,HC-HC,Scatchard_1940/DECHEMA_I_Part6a,lit-NRTL-calc,25,323 K [D]
+46,benzene,isooctane,303.15,0.3826,0.4513,0.3,HC-HC,Munoz_2000_JCED45,lit-NRTL-calc,25,"[R] Muñoz 2000 J.Chem.Eng.Data 45,585"
+47,benzene,isooctane,313.15,0.37,0.438,0.3,HC-HC,Munoz_2000_JCED45,lit-NRTL-calc,25,313 K [R]
+48,benzene,isooctane,323.15,0.358,0.426,0.3,HC-HC,Munoz_2000_JCED45,lit-NRTL-calc,25,323 K [R]
+49,n-hexane,n-heptane,298.15,0.012,0.009,0.3,HC-HC,DECHEMA_I_Part6/Chu_1950,lit-NRTL-calc,25,Nearly ideal; [D]
+50,n-hexane,n-heptane,323.15,0.011,0.0085,0.3,HC-HC,DECHEMA_I_Part6/Chu_1950,lit-NRTL-calc,25,323 K [D]
+51,n-hexane,n-heptane,348.15,0.01,0.008,0.3,HC-HC,DECHEMA_I_Part6/Chu_1950,lit-NRTL-calc,25,348 K [D]
+52,toluene,n-heptane,298.15,0.205,0.205,0.3,HC-HC,DECHEMA_I_Part6a/Rossini_1945,lit-NRTL-calc,25,Small symmetric deviation; [D]
+53,toluene,n-heptane,323.15,0.197,0.197,0.3,HC-HC,DECHEMA_I_Part6a/Rossini_1945,lit-NRTL-calc,25,323 K [D]
+54,ethyl-acetate,ethanol,308.15,0.576,0.932,0.3,ester,Kato_1989_JCED34,lit-NRTL-calc,25,Azeotrope x_EtOAc≈0.46 at 101.3 kPa; [R] Kato 1989
+55,ethyl-acetate,ethanol,323.15,0.551,0.894,0.3,ester,Kato_1989_JCED34,lit-NRTL-calc,25,323 K [D]
+56,ethyl-acetate,water,323.15,2.58,3.14,0.47,ester,DECHEMA_I_Part2/Chu_1950,lit-NRTL-calc,25,Hetero-azeotrope modelled in homog. region; [D]
+57,ethyl-acetate,water,343.15,2.49,3.03,0.46,ester,DECHEMA_I_Part2/Chu_1950,lit-NRTL-calc,25,343 K [D]
+58,diethyl-ether,n-heptane,298.15,0.295,0.295,0.3,ether-HC,DECHEMA_I_Part3/Smyth_Engel_1929,lit-NRTL-calc,25,Small symmetric deviation; [D]
+59,diethyl-ether,n-heptane,313.15,0.285,0.285,0.3,ether-HC,DECHEMA_I_Part3/Smyth_Engel_1929,lit-NRTL-calc,25,313 K [D]
+60,THF,water,303.15,1.42,2.02,0.47,THF,Chiou_Chern_2010_JCED55,lit-NRTL-calc,25,Azeotrope x_THF≈0.83 at 339 K; [R] Chiou&Chern 2010
+61,THF,water,333.15,1.37,1.95,0.46,THF,Chiou_Chern_2010_JCED55,lit-NRTL-calc,25,333 K [R]
+62,THF,methanol,298.15,0.48,0.52,0.3,THF,Chiou_Chern_2010/DECHEMA,lit-NRTL-calc,25,Small azeotrope; [D]
+63,THF,methanol,313.15,0.46,0.5,0.3,THF,Chiou_Chern_2010/DECHEMA,lit-NRTL-calc,25,313 K [D]
+64,acetonitrile,water,318.15,1.62,2.15,0.45,nitrile,Prausnitz_MolThermo/Perrys,lit-NRTL-calc,25,Azeotrope x_MeCN≈0.67 at 349 K; [P][S]
+65,acetonitrile,water,348.15,1.55,2.06,0.44,nitrile,Prausnitz_MolThermo/Perrys,lit-NRTL-calc,25,348 K [P]
+66,acetonitrile,methanol,298.15,0.362,0.189,0.3,nitrile,Li_2013_FPE340,lit-NRTL-calc,25,Small deviation; [R] Li et al. Fluid Phase Eq. 340(2013)42
+67,acetonitrile,methanol,318.15,0.344,0.176,0.3,nitrile,Li_2013_FPE340,lit-NRTL-calc,25,318 K [R]

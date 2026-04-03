@@ -1,0 +1,91 @@
+{
+  "model_architecture": {
+    "name": "ASNN-VLE (Artificial Structured Neural Network)",
+    "input_features": [
+      "x1",
+      "T_K",
+      "Psat1_kPa",
+      "Psat2_kPa"
+    ],
+    "output_targets": [
+      "P_kPa",
+      "y1"
+    ],
+    "input_dim": 4,
+    "output_dim": 2
+  },
+  "dataset_info": {
+    "system": "ethanol-water",
+    "total_datapoints": 75,
+    "training_samples": 60,
+    "validation_samples": 7,
+    "test_samples": 8,
+    "split_method": "Every 5th datapoint for test/validation"
+  },
+  "training_info": {
+    "epochs_trained": 42,
+    "batch_size": 8,
+    "optimizer": "Adam (lr=0.001)",
+    "loss_function": "MSE"
+  },
+  "performance_metrics": {
+    "P_kPa": {
+      "train": {
+        "rmse": 5.18082844354154,
+        "mae": 3.8228225874328614,
+        "r2": 0.9833440027955975
+      },
+      "val": {
+        "rmse": 2.877025062498253,
+        "mae": 2.403915690394811,
+        "r2": 0.8951866252265173
+      },
+      "test": {
+        "rmse": 5.548729682313239,
+        "mae": 5.200392935180664,
+        "r2": 0.9754004029619977
+      }
+    },
+    "y1": {
+      "train": {
+        "rmse": 0.07921862459509578,
+        "mae": 0.05697244344552358,
+        "r2": 0.8773348369717158
+      },
+      "val": {
+        "rmse": 0.11822122177601199,
+        "mae": 0.08861007128443035,
+        "r2": 0.4711765901707473
+      },
+      "test": {
+        "rmse": 0.07152537935270958,
+        "mae": 0.05967622484564781,
+        "r2": 0.8138129767998377
+      }
+    }
+  },
+  "feature_scaler_params": {
+    "mean": [
+      0.445,
+      324.15000000000015,
+      45.86966666666667,
+      19.728499999999997
+    ],
+    "std": [
+      0.3275286247032463,
+      21.64871050817269,
+      39.34655832491014,
+      17.334561137988658
+    ]
+  },
+  "target_scaler_params": {
+    "mean": [
+      44.13512,
+      0.629705
+    ],
+    "std": [
+      40.14337586688411,
+      0.22618649858394876
+    ]
+  }
+}
